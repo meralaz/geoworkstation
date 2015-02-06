@@ -1,0 +1,134 @@
+ .company {
+	position: fixed;
+	width: 100%;
+	text-align: right;
+	font-family: 'Oswald', sans-serif;
+	text-shadow: 0.04em 0.04em 0px #000, 0.05em 0.04em 0px #AAA;
+	/*font-weight: bold;*/
+	opacity: 0.9;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+	color:  #fff;
+ }
+ 
+@media (min-width: 360px) {
+  .company {
+	top: 50px;
+	padding-right: 60px;
+	font-size: 38px;
+ }
+  .companyMotto {
+    top: 100px;
+	padding-right: 60px;
+	font-size: 20px;
+  }
+  
+  ul.serviceList {
+	font-size: 12px;
+  }
+}
+
+ @media (min-width: 768px) {
+  .company {
+	top: 90px;
+	padding-right: 150px;
+	font-size: 50px;
+ }
+  .companyMotto {
+    top: 160px;
+	padding-right: 150px;
+	font-size: 28px;
+  }
+  
+  ul.serviceList {
+	font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  .company {
+	top: 100px;
+	padding-right: 150px;
+	font-size: 70px;
+ }
+  .companyMotto {
+    top: 190px;
+    padding-right: 150px;
+	font-size: 35px;
+  }
+  
+  ul.serviceList {
+	font-size: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .company {
+	top: 120px;
+	padding-right: 200px;
+	font-size: 70px;
+ }
+  .companyMotto {
+    top: 220px;
+    padding-right: 200px;
+	font-size: 36px;
+  }
+  
+  ul.serviceList {
+	font-size: 20px;
+  }
+}
+
+ .companyMotto {
+	position: fixed;
+	width: 100%;
+	text-align: right;
+	font-family: 'Bad Script', sans-serif;
+	/*font-weight: bold;*/
+	text-shadow: 0.04em 0.04em 0px #000;
+	color:  #fff;
+ } 
+ 
+ ul.serviceList {
+	text-align: right;
+	font-family: 'Bad Script', sans-serif;
+	text-shadow: 0.04em 0.04em 0px #000, 0.06em 0.06em 1px #AAA;
+ } 
+ 
+ .carousel-custom-bg {
+	background : #060;
+	border: 0px solid ;
+	opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+	color:  #fff;
+ }
+
+ .footer{
+    bottom: 0px;
+    height: 25px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+    margin: 0px auto;
+	border: 1px solid #ccc;
+	padding: 0px 5px;
+	text-align: center;
+}
+
+/*OVERRIDES*/
+ .carousel-caption {
+  width: 100%;
+  padding-top: 30px;
+  padding-left: 30px;
+  margin-bottom: -40px;
+  left: 0%;
+  right: 0%;
+  text-align: left;
+ }
+
+.banner{
+	 position: fixed;
+	 width: 100%;
+	 padding-left: 0px;
+	 padding-right: 0px;
+ }
+ 
